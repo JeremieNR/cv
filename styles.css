@@ -17,4 +17,26 @@ h3 {
     color: rgb(0, 0, 0);
 }
 
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.link-table {
+    width: 20%;
+    text-align: center;
+}
+
+.intro {
+    width: 50%;
+    text-align: justify;
+}
+
+.intro-table {
+    border-spacing: 20px;
+}
+
+.jeremie {
+    font-family: Tahoma;
+}
 
