@@ -3,13 +3,13 @@
 
 a {
     text-decoration: none;
-    color: blue;
+    color: rgb(255, 0, 0);
     transition-duration: 0.4s;
 }
 
 a:hover {
     text-decoration: none;
-    color: rgb(96, 202, 255);
+    color: rgb(0, 210, 229);
 }
 
 body {
@@ -19,26 +19,55 @@ body {
 button {
     color: #385170;
     border: 0px;
-    border-radius: 20%;
-    padding: 5% 7.5%;
+    border-radius: 10%;
+    padding: 0.5% 0.5%;
     font-size: 95%;
-    background-color: #9fd3c7;
+    background-color: #D3D3D3;
     font-weight: bold;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition-duration: 0.4s;
+    margin-right: 2%;
+    margin-top: 0.5%;
 }
 
 button:hover {
-    color: #0b223d;
-    background-color: #8ee6d3;
+    color: #031122;
+    background-color: #D3D3D3;
+}
+
+div.gallery {
+    margin: 0.5%;
+    border: 3px solid #ccc;
+    float: right;
+    margin-right: 15%;
+    width: 75%;
+    border-radius: 1%;
+}
+  
+  div.gallery:hover {
+    border: 3px solid #777;
+    transition-duration: 0.4s;
+    border-radius: 1%;
+}
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+  div.desc {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    margin: 1%;
 }
 
 hr {
     border-style: none;
     height: 1px;
     background-color: rgb(114, 114, 114);
-    width:60%;
+    width:95%;
     margin-left:0%;
 }
 
@@ -53,12 +82,13 @@ h2 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 110%;
     color: #385170;
+    margin-top: -0.01%;
 }
 
 p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
-    width: 50%;
+    width: 90%;
     text-align: justify;
 }
 
@@ -69,16 +99,3 @@ p {
     padding-left: 0.75%;
 }
 
-.link-table {
-    width: 20%;
-    text-align: center;
-}
-
-.vl {
-    border-left: 1px solid rgb(114, 114, 114);
-    height: 98%;
-    background-color: rgb(114, 114, 114);
-    position: absolute;
-    margin-left: -39%;
-    top:1%;
-}
