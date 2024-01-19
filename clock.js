@@ -1,20 +1,15 @@
-function updateClock() {
-    const now = new Date();
-    const hours = now.getHours().toString().padStart(2, '0');
-    const minutes = now.getMinutes().toString().padStart(2, '0');
-    const seconds = now.getSeconds().toString().padStart(2, '0');
-
-    const clock = `
-     ┌─────────────────┐
-     │ ${hours} : ${minutes} : ${seconds} │
-     └─────────────────┘
-    `;
-
-    document.getElementById('asciiClock').innerText = clock;
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
 }
 
-// Update the clock every second
-setInterval(updateClock, 1000);
-
-// Initial update
-updateClock();
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
