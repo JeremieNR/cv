@@ -45,18 +45,18 @@ div.gallery {
     border-radius: 1%;
 }
   
-  div.gallery:hover {
+div.gallery:hover {
     border: 3px solid #777;
     transition-duration: 0.4s;
     border-radius: 1%;
 }
   
-  div.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
 }
   
-  div.desc {
+div.desc {
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
@@ -83,6 +83,10 @@ h2 {
     font-size: 110%;
     color: #385170;
     margin-top: -0.01%;
+}
+
+img {
+  border: 2px solid #D3D3D3;
 }
 
 p {
