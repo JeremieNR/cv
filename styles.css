@@ -91,6 +91,10 @@ img {
   background: #D3D3D3;
 }
 
+li {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+
 p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
