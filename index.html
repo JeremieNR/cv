@@ -12,7 +12,17 @@
             <td>
                 <table class="intro-table">
                     <tr>
-                        <td><img src="me2.jpeg" width="auto" height="210"></td>
+                        <td>
+			    <img src="me2.jpeg" width="auto" height="210">
+			    <p id="my_age"></p>
+  			    <script>
+                                function updateDifference() {
+      				    document.getElementById('my_age').textContent = `I am ${Math.floor((new Date() - new Date('April 14, 2003 18:39:00')) / 1000)} seconds old.`;
+    				}
+    				updateDifference();
+    				setInterval(updateDifference, 1000);
+  			    </script>
+			</td>
                         <td></td><td></td><td></td><td></td><td></td>
                         <td>
                             <h1>Jeremie Notebaert</h1>
